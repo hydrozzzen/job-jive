@@ -1,0 +1,163 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    
+}
+.navbar{
+    background-color:  #AC0C30;
+}
+.navbar-expand-lg .navbar-nav .nav-link{
+    color: white!important;
+}
+.logoimg {
+    width: 121px;
+    /* border-top: 21px solid rgb(255, 255, 255);
+    border-bottom: 21px solid rgb(255, 255, 255); */
+  
+}
+.navbar-toggler {
+    border-color: transparent!important; /* Optional: remove the border if desired */
+}
+
+.navbar-toggler-icon {
+    background-image: url('bars.svg')!important; /* Ensure the path to your image is correct */
+}
+
+ /* Video content */
+  
+ .video-container {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.video-container video {
+    width: 100%;
+    height: auto;
+}
+
+.overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: Roboto;
+    font-size: 41px;
+  
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: 700;
+    color: white;
+   
+}
+.text-center {
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    font-weight: 600;
+}
+.pcoro{
+    text-align: center;
+    font-family: Roboto;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+    color: rgb(51, 51, 51);
+    margin-bottom: 20px;
+   margin-top: 1rem;
+    min-height: 50px;
+    overflow: hidden;
+}
+.image-container {
+    display: inline-block;
+    text-align: center; /* Center align text below the image */
+    overflow: hidden; /* Ensures that the scaling effect doesn't overflow */
+    transition: transform 0.3s ease; /* Smooth transform effect for the container */
+}
+
+.image-container img {
+    transition: transform 0.3s ease; /* Smooth scaling effect for the image */
+    width: 100%; /* Make the image responsive */
+    max-width: 400px; /* Set max width */
+}
+
+
+.image-container:hover img {
+    transform: scale(1.018); /* Scale image on hover */
+    border-radius: 3%;
+}
+
+.caption {
+    color: black; /* Initial text color */
+    transition: color 0.3s ease; /* Smooth color transition */
+    margin-top: 10px; /* Space between image and caption */
+}
+
+.image-container:hover .caption {
+    color: #008081; /* Change text color on hover */
+    margin-top: 17px;
+}
+.accordion-item{
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1%;
+    box-shadow:  2px black;
+}
+.accordion-button:not(.collapsed){
+    color: #008081; 
+    background-color: rgb(255, 255, 255);
+}
+
+.--bs-accordion-btn-icon{
+    border: 30px;
+}
+
+--bs-accordion-btn-icon{
+    border: 5px solid rgb(187, 0, 0); /* Circular border color */
+    border-radius: 50%; /* Make it circular */
+}
+.background-section {
+    margin-top: 20px;
+  
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url('Group 1000003005(1).png'); /* Replace with your image path */
+    
+}
+.headingoftextandimg{
+    margin-top: 20px;
+    font-family: Roboto;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: normal;
+  color: rgb(0, 0, 0);
+}
+
+.empowering{
+   margin-top: 27px;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: normal;
+    color: rgb(0, 0, 0);
+}
+.ptext{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    line-height: 1.8;
+    font-family: Roboto;
+    margin-left: 0.2rem;
+    margin-right: 0.2rem;
+}
+.smalltext{
+    font-family: Roboto;
+    line-height: 1.2;
+    margin-bottom: 1rem;
+    font-weight: 600;
+    color:  #AC0C30;
+    font-size: 20px;
+    margin-top: 1rem;
+}
+.smallimg{
+    margin-left: 17%;
+}
