@@ -10,6 +10,7 @@
     }
     .accordion-item{
       width: 100%;
+      margin-top: 6%;
       
   }
     .accordion-header{
@@ -33,7 +34,13 @@
      font-weight: 600;
      line-height: normal;
      color: rgb(0, 0, 0);
-     text-align: center;
+     text-align: left;
  }
-  
+ .empopara{
+  display: none;
+ }
+ .registerbtn{
+  margin-bottom: 5%;
+ }
+
   }
