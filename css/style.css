@@ -1,6 +1,7 @@
+
 body {
     font-family: 'Roboto', sans-serif;
-    border: 1px solid;
+   
     
 }
 .navbar{
@@ -56,48 +57,57 @@ body {
     margin-top: 1rem;
     font-weight: 600;
 }
-.pcoro{
-    text-align: center;
+.mb-4{
     font-family: Roboto;
-    font-size: 25px;
-    font-weight: 700;
-    line-height: normal;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 23.04px;
     text-align: center;
-    color: rgb(51, 51, 51);
-    margin-bottom: 20px;
-   margin-top: 1rem;
-    min-height: 50px;
-    overflow: hidden;
-}
-.image-container {
-    display: inline-block;
-    text-align: center; /* Center align text below the image */
-    overflow: hidden; /* Ensures that the scaling effect doesn't overflow */
-    transition: transform 0.3s ease; /* Smooth transform effect for the container */
+    max-width: 85%;
+    margin: auto;
 }
 
-.image-container img {
-    transition: transform 0.3s ease; /* Smooth scaling effect for the image */
-    width: 100%; /* Make the image responsive */
-    max-width: 400px; /* Set max width */
-}
+.btn-secondary-explore {
+    padding: 12px 25px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #ffffff;
+    text-decoration: none !important;
+    border-radius: 5px;
+    font-weight: 400;
+    background-color: #008081;
+    border: 2px solid rgb(0, 128, 129);
+    box-shadow: 0px 4px 8px 0px rgba(0, 128, 129, 0.1);
+    margin-right: 10px;
+    transition: background-color 0.3s, border-color 0.3s; /* Smooth transition */
+  }
+
+  .btn-border-enquery {
+    padding: 12px 25px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #ffffff;
+    text-decoration: none !important;
+    border-radius: 5px;
+    font-weight: 400;
+    background-color: transparent;
+    border: 2px solid white;
+    box-shadow: 0px 4px 8px 0px rgba(0, 128, 129, 0.1);
+    margin-right: 10px;
+    transition: border-color 0.3s; /* Smooth transition */
+  }
+
+  /* Hover Styles */
+  a:hover{
+    color: white!important;
+  }
 
 
-.image-container:hover img {
-    transform: scale(1.018); /* Scale image on hover */
-    border-radius: 3%;
-}
-
-.caption {
-    color: black; /* Initial text color */
-    transition: color 0.3s ease; /* Smooth color transition */
-    margin-top: 10px; /* Space between image and caption */
-}
-
-.image-container:hover .caption {
-    color: #008081; /* Change text color on hover */
-    margin-top: 17px;
-}
+  .mx-4{
+    color: #AC0C30;
+    font-size: 20px;
+    font-weight: 600;
+  }
 .accordion-item{
     width: 60%;
     margin-left: auto;
@@ -119,7 +129,7 @@ body {
     border-radius: 50%; /* Make it circular */
 }
 .background-section {
-    margin-top: 20px;
+    margin-top: 80px;
   
     background-size: cover;
     background-repeat: no-repeat;
@@ -159,6 +169,7 @@ padding: 12px 30px;
 border-radius: 8px;
 display: inline;
 margin-top: 20px;
+margin-left: 60px;
 }
 .vertical-list {
     list-style-type: none; /* Removes bullet points */
@@ -199,4 +210,70 @@ margin-top: 20px;
     background-color: #008081;
     color: white;
     font-weight: 600;
+}
+.carousel {
+    width: 60%; /* Adjusted width */
+    margin: auto;
+  }
+  .carousel img {
+    width: 79%; /* Reduced image width */
+    display: block;
+    margin: auto; /* Center the images */
+    transition: transform 0.3s ease; /* Added transform for zoom effect */
+  }
+  .carousel-item {
+    position: relative;
+    overflow: hidden;
+    border: 2px solid transparent; /* Default border */
+    transition: border-color 0.3s;
+    text-align: center; /* Center text */
+  }
+  
+  .carousel-item:hover img {
+    transform: scale(1.041); /* Zoom in effect */
+  }
+  .caption {
+    margin-top: 10px; /* Space between image and caption */
+    font-size: 18px;
+    color: #333; /* Default caption color */
+    transition: color 0.3s ease; /* Added transition for caption color */
+  
+  font-size: 25px;
+  font-weight: 700;
+  
+  
+  }
+  
+  .carousel-item:hover .caption {
+    color: #008081; /* Change caption color on hover */
+  }
+  .button {
+    position: absolute;
+    bottom: 66px; /* Adjust as needed */
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #008081; /* Button color */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    opacity: 0; /* Start hidden */
+    transition: opacity 0.3s; /* Fade in effect */
+  }
+  .carousel-item:hover .button {
+    opacity: 1; /* Show button on hover */
+  }
+
+.headingcoro{
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 57.6px;
+    text-align: center;
+    position: relative;
+    display: block;
+    padding-bottom: 10px
+}
+.hiring{
+    margin-top: 50px;
 }
