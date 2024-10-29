@@ -3,7 +3,8 @@
       background-color: rgb(255, 255, 255);
     }
     .overlay{
-      font-size: 12px;
+      font-size: 14px;
+      width: 70%;
     }
     .text-center {
       font-size: 11px;
@@ -42,5 +43,61 @@
  .registerbtn{
   margin-bottom: 5%;
  }
+ .mb-4 {
+  font-size: 8px;
+  line-height: 10px;
+}
+ .btn-secondary-explore {
+  padding: 8px 15px;
+  font-size: 11px;
 
   }
+  .btn-border-enquery {
+    padding: 8px 15px;
+    font-size: 11px;
+  
+    }
+
+    .headingcoro {
+      font-size: 26px;
+      font-weight: 600;
+      line-height: 32.6px;
+      text-align: center;
+      position: relative;
+      display: block;
+      padding-bottom: 10px;
+  }
+
+  .carousel img {
+    width: 161%;
+    display: block;
+    margin: auto;
+    transition: transform 0.3s ease;
+}
+.caption {
+  margin-top: 10px;
+  color: #333;
+  transition: color 0.3s ease;
+  font-size: 19px;
+  font-weight: 500;
+}
+.imgoflady {
+  max-width: 100%;
+  height: auto;
+  width: 74%;
+  margin-left: 45px;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+.imgparahire {
+  line-height: 1.9;
+  text-align: justify;
+  margin-right: 4%;
+  margin-top: 7%;
+ 
+  font-size: 12px;
+  margin-right: 4%;
+  margin-left: 4%;
+}
+
+}
